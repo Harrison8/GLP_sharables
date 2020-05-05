@@ -1,1 +1,1 @@
-GLP_sharables
+This repo is an easy way to share images and maps with the GLP team.

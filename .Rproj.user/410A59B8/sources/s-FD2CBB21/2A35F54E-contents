@@ -1,0 +1,14 @@
+name: "GLP Sharables"
+output_dir: "docs"
+navbar:
+  title: "Easy way to share images"
+  left:
+    - text: "Estimated Job Loss due to COVID-19"
+      href: index.html
+
+output:
+  html_document:
+    theme: paper
+    toc: true
+    toc_float: true
+    toc_collapsed: false
