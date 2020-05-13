@@ -1,0 +1,33 @@
+---
+title: "West Louisville Boundaries"
+output: html_document
+---
+
+<style type="text/css">
+h1 {
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Museo Sans 300";
+}
+body{
+  font-family: "Museo Sans 300";
+  font-size: 15px;
+}
+</style>
+
+```{r setup, message = FALSE, echo = FALSE}
+library(tidyr)
+library(readr)
+library(dplyr)
+library(stringr)
+library(magrittr)
+library(glptools)
+
+library(purrr)
+library(leaflet)
+```
+
+```{r}
+make_map(list(west_lou_tract), "west_lou", "West Louisville", "West Louisville", units = "")
+```

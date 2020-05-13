@@ -1,10 +1,12 @@
 name: "GLP Sharables"
 output_dir: "docs"
 navbar:
-  title: "Easy way to share images"
+  title: "GLP Sharables"
   left:
-    - text: "Estimated Job Loss due to COVID-19"
+    - text: "Job Loss due to COVID-19"
       href: index.html
+    - text: "West Louisville Boundaries"
+      href: west_lou.html
 
 output:
   html_document:
