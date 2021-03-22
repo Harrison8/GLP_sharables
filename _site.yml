@@ -7,7 +7,7 @@ navbar:
       href: index.html
     - text: "West Louisville Boundaries"
       href: west_lou.html
-    - test: "D21"
+    - text: "D21"
       href: D21.html
 
 output:
