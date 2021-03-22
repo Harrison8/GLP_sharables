@@ -7,6 +7,8 @@ navbar:
       href: index.html
     - text: "West Louisville Boundaries"
       href: west_lou.html
+    - test: "D21"
+      href: D21.html
 
 output:
   html_document:
@@ -14,3 +16,4 @@ output:
     toc: true
     toc_float: true
     toc_collapsed: false
+    code_folding: hide
