@@ -9,6 +9,8 @@ navbar:
       href: west_lou.html
     - text: "D21"
       href: D21.html
+    - text: "Internet Access"
+      href: internet_access.html
 
 output:
   html_document:
